@@ -4,17 +4,24 @@ public class Teste {
     public static void main(String[] args) {
 
         MinhaThread thread = new MinhaThread("Thread 1", 600);
-        Thread thread1 = new Thread(thread);
+        Thread t1 = new Thread(thread);
 
         MinhaThread thread2 = new MinhaThread("Thread 2", 900);
-        Thread thread3 = new Thread(thread2);
+        Thread t2 = new Thread(thread2);
 
-        thread1.start();
-        thread3.start();
+        MinhaThread thread3 = new MinhaThread("thread 3", 300);
+        Thread t3 = new Thread(thread3);
+
+        t1.start();
+        t1.setPriority(Thread.MAX_PRIORITY);
+        t2.start();
+        t3.start();
+
 
         try {
-            thread1.join();
-            thread3.join();
+            t1.join();
+            t2.join();
+            t3.join();
         }catch (InterruptedException e){
             e.printStackTrace();
         }
