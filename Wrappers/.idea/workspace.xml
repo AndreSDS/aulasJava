@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4029678a-be6a-4721-8301-9dc7b1d5ea24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TiqueTaque/TicTac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wrappers/Threads/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wrappers/Threads/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/MinhaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/MinhaThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Threads/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Teste.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,26 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicTac.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TiqueTaque/TicTac.java">
+      <file leaf-file-name="MinhaThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Threads/MinhaThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="37">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TiqueTaque/TicTacThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TesteTitTac.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TiqueTaque/TesteTitTac.java">
+      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Threads/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -66,8 +60,6 @@
         <option value="$PROJECT_DIR$/src/com/company/ColetorDeLixo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/ColetorDeLixo.java" />
-        <option value="$PROJECT_DIR$/src/Threads/MinhaThread.java" />
-        <option value="$PROJECT_DIR$/src/Threads/Teste.java" />
         <option value="$PROJECT_DIR$/src/Calculadora/TesteCalc.java" />
         <option value="$PROJECT_DIR$/src/Calculadora/CalcThreads.java" />
         <option value="$PROJECT_DIR$/src/Calculadora/Calculadora.java" />
@@ -76,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/TiqueTaque/TesteTitTac.java" />
         <option value="$PROJECT_DIR$/src/TiqueTaque/TicTacThread.java" />
         <option value="$PROJECT_DIR$/src/TiqueTaque/TicTac.java" />
+        <option value="$PROJECT_DIR$/src/Threads/MinhaThread.java" />
+        <option value="$PROJECT_DIR$/src/Threads/Teste.java" />
       </list>
     </option>
   </component>
@@ -139,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteTitTac">
+  <component name="RunManager" selected="Application.Teste">
     <configuration name="ColetorDeLixo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColetorDeLixo" />
       <module name="Wrappers" />
@@ -205,9 +199,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.TesteTitTac" />
         <item itemvalue="Application.TesteCalc" />
-        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.ColetorDeLixo" />
         <item itemvalue="Application.Main" />
       </list>
@@ -243,7 +237,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24587911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24587911" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,20 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Threads/MinhaThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Threads/Teste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculadora/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -456,8 +436,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TiqueTaque/TicTac.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Threads/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Threads/MinhaThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
