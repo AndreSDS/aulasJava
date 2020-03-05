@@ -30,7 +30,6 @@ public class AulaTimeZone {
 		System.out.println(sdf.format(agoraSP.getTime()));
 		
 		agoraSP.add(Calendar.HOUR_OF_DAY, tzSp.getOffset((System.currentTimeMillis()) / 1000 /60 / 60));
-		
 		System.out.println(sdf.format(agoraSP.getTime()));
 	}
 
